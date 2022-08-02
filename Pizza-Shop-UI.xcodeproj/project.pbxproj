@@ -11,6 +11,10 @@
 		33D7B2F42899385E00F8A8E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7B2F32899385E00F8A8E8 /* ContentView.swift */; };
 		33D7B2F62899385F00F8A8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D7B2F52899385F00F8A8E8 /* Assets.xcassets */; };
 		33D7B2F92899385F00F8A8E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D7B2F82899385F00F8A8E8 /* Preview Assets.xcassets */; };
+		33D7B3032899388600F8A8E8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7B3022899388600F8A8E8 /* Extensions.swift */; };
+		33D7B3052899390400F8A8E8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7B3042899390400F8A8E8 /* Home.swift */; };
+		33D7B3072899390E00F8A8E8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7B3062899390E00F8A8E8 /* ViewModel.swift */; };
+		33D7B309289949C500F8A8E8 /* BottomMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7B308289949C500F8A8E8 /* BottomMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		33D7B2F32899385E00F8A8E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33D7B2F52899385F00F8A8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D7B2F82899385F00F8A8E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33D7B3022899388600F8A8E8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		33D7B3042899390400F8A8E8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		33D7B3062899390E00F8A8E8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		33D7B308289949C500F8A8E8 /* BottomMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,11 @@
 		33D7B2F02899385E00F8A8E8 /* Pizza-Shop-UI */ = {
 			isa = PBXGroup;
 			children = (
+				33D7B3062899390E00F8A8E8 /* ViewModel.swift */,
+				33D7B3012899387900F8A8E8 /* Utils */,
+				33D7B3002899387400F8A8E8 /* Models */,
+				33D7B2FF2899386E00F8A8E8 /* Views */,
 				33D7B2F12899385E00F8A8E8 /* Pizza_Shop_UIApp.swift */,
-				33D7B2F32899385E00F8A8E8 /* ContentView.swift */,
 				33D7B2F52899385F00F8A8E8 /* Assets.xcassets */,
 				33D7B2F72899385F00F8A8E8 /* Preview Content */,
 			);
@@ -65,6 +76,31 @@
 				33D7B2F82899385F00F8A8E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33D7B2FF2899386E00F8A8E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33D7B2F32899385E00F8A8E8 /* ContentView.swift */,
+				33D7B3042899390400F8A8E8 /* Home.swift */,
+				33D7B308289949C500F8A8E8 /* BottomMenu.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33D7B3002899387400F8A8E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33D7B3012899387900F8A8E8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33D7B3022899388600F8A8E8 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D7B3072899390E00F8A8E8 /* ViewModel.swift in Sources */,
 				33D7B2F42899385E00F8A8E8 /* ContentView.swift in Sources */,
+				33D7B3032899388600F8A8E8 /* Extensions.swift in Sources */,
+				33D7B309289949C500F8A8E8 /* BottomMenu.swift in Sources */,
+				33D7B3052899390400F8A8E8 /* Home.swift in Sources */,
 				33D7B2F22899385E00F8A8E8 /* Pizza_Shop_UIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
